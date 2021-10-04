@@ -4,8 +4,15 @@
 !.zshrc
 !.zprofile
 !.xinitrc
+!/.config/
+!/.config/awesome/
+!/.config/kitty/
+!/.config/mpd/
+!/.config/ncmpcpp/
+!/.config/nvim/
+!/.config/picom/
+!/.config/wpg/
 !/.config/awesome/rc.lua
-!/.config/awesome/themes/steamburn/
 !/.config/kitty/kitty.conf
 !/.config/mpd/mpd.conf
 !/.config/ncmpcpp/config
