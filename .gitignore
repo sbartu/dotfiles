@@ -1,0 +1,13 @@
+*
+!.gitignore
+!.zshrc
+!.zprofile
+!.xinitrc
+!/.config/awesome/rc.lua
+!/.config/awesome/themes/steamburn/
+!/.config/kitty/kitty.conf
+!/.config/mpd/mpd.conf
+!/.config/ncmpcpp/config
+!/.config/nvim/init.vim
+!/.config/picom/picom.conf
+!/.config/wpg/wpg.conf
