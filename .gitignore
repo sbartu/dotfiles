@@ -19,3 +19,4 @@
 !/.config/nvim/init.vim
 !/.config/picom/picom.conf
 !/.config/wpg/wpg.conf
+!/.config/awesome/rc.lua
