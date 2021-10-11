@@ -23,6 +23,9 @@ Plug 'janko-m/vim-test'
 Plug 'tpope/vim-obsession'
 call plug#end()
 
+" Set line numbers
+set number
+
 let g:deoplete#enable_at_startup = 1
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"

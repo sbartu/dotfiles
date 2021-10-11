@@ -350,20 +350,20 @@ globalkeys = mytable.join(
               {description = "focus the next screen", group = "screen"}),
     awful.key({ modkey, "Control" }, "Left", function () awful.screen.focus_relative(-1) end,
               {description = "focus the previous screen", group = "screen"}),
-    awful.key({ modkey,           }, "`", awful.client.urgent.jumpto,
-              {description = "jump to urgent client", group = "client"}),
-    awful.key({ modkey,           }, "Tab",
-        function ()
-            if cycle_prev then
-                awful.client.focus.history.previous()
-            else
-                awful.client.focus.byidx(-1)
-            end
-            if client.focus then
-                client.focus:raise()
-            end
-        end,
-        {description = "cycle with previous/go back", group = "client"}),
+    --awful.key({ modkey,           }, "`", awful.client.urgent.jumpto,
+              --{description = "jump to urgent client", group = "client"}),
+    --awful.key({ modkey,           }, "Tab",
+        --function ()
+            --if cycle_prev then
+                --awful.client.focus.history.previous()
+            --else
+                --awful.client.focus.byidx(-1)
+            --end
+            --if client.focus then
+                --client.focus:raise()
+            --end
+        --end,
+        --{description = "cycle with previous/go back", group = "client"}),
 
     -- Show/hide wibox
     awful.key({ modkey }, "b", function ()
